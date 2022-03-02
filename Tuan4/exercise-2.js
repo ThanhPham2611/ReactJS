@@ -15,7 +15,7 @@ const anotherObj = {
 };
 
 //1. Hãy clone 2 đối tượng trên bằng tất cả các cách mà bạn biết
-console.log({...obj,...anotherObj})
+// console.log({...obj,...anotherObj})
 
 
 
@@ -29,7 +29,8 @@ console.log({...obj,...anotherObj})
 
 
 //3. Hãy merge 2 đối tượng đã cho thành 1 đối tượng mới bằng tất cả các cách mà bạn biết
-// *YOUR CODE HERRE *
+let merge = Object.assign(obj, anotherObj)
+console.log(merge)
 
 
 
